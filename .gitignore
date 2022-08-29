@@ -1,0 +1,15 @@
+# Ignore Gradle project-specific cache directory
+.gradle
+
+#idea
+*.idea
+
+# Ignore Gradle build output directory
+build
+.vscode
+.DS_Store
+
+# Ignore lib
+gc-plugin/lib/
+
+gc-plugin/src/main/resources/plugin.json

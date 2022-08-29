@@ -1,0 +1,14 @@
+{
+  "name": "GLAnnounceMent",
+  "description": "GenshinLauncher公告提供插件",
+  "version": "1.0.2-dev",
+  "authors": [ "gc-toolkit" ],
+  
+  "mainClass": "com.gctoolkit.glannouncement.PluginTemplate",
+  
+  "comments": [
+    "This comments block doesn't need to be in your plugin.json.",
+    "The mainClass should include the FQDN of the main plugin class.",
+    "Required fields are: 'name', 'description', and 'mainClass'."
+  ]
+}

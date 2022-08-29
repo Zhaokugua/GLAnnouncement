@@ -1,0 +1,19 @@
+{
+  "announcementItems": [
+    {
+      "content": "[公告]GL专用公告插件发布",
+      "url": "https://github.com/gc-toolkit/GLAnnounceBackend",
+      "time": "08/29"
+    },
+    {
+      "content": "[活动]新活动已开启，点击前往",
+      "url": "https://github.com/gc-toolkit/GLAnnounceBackend",
+      "time": "08/29"
+    },
+    {
+      "content": "[通知]服务器将在9月1日17-19时进行维护，详情点击查看",
+      "url": "https://github.com/gc-toolkit/GLAnnounceBackend",
+      "time": "08/29"
+    }
+  ]
+}
