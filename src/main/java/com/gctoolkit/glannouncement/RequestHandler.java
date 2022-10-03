@@ -18,6 +18,11 @@ public final class RequestHandler implements Router {
         app.get("/glannouncement/list", RequestHandler::processRequest);
 //        app.post("/glannouncement/carousel", RequestHandler::requestKey);
     }
+    public void applyRoutes(Javalin javalin) {
+
+        javalin.get("/glannouncement/list", ctx -> ctx.json(PluginTemplate.getInstance().getConfiguration().announcementItems));
+//        app.post("/glannouncement/carousel", RequestHandler::requestKey);
+    }
     public static void processRequest(Request req, Response res) throws IOException {{
         res.type("application/json");
 
